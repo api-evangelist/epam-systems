@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "epam-systems",
+    "captured_at": "2026-10-11T185653",
+    "source_url": "https://www.epam.com",
+    "source_type": "Website",
+    "file": "epam-systems-2026-10-11T185653.png",
+    "bytes": 626633,
+    "capture": "playwright-local"
+  }
+]
