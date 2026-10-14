@@ -1,6 +1,7 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- guidewire/integrations/guidewire-integration-edges.yml
 - https://marketplace.atlassian.com/
 - https://plugins.jetbrains.com/
 marketplace_apps: []
@@ -38,6 +39,26 @@ edges:
   - Verified vendor
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Guidewire (own)
+  partner: guidewire
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.guidewire.com/product/01tPW00000CQlqnYAD/01tPW00000CQlqnYAD
+  mirror_of: guidewire/integrations/guidewire-integration-edges.yml
+  apps:
+  - EPAM Accelerator for Surety Template for PolicyCenter
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Accelerator; Data Tools & Utilities;Workflow; PolicyCenter
+  badges:
+  - Ready for Guidewire
+  - 'Partner tier: Growth'
 source:
 - https://marketplace.atlassian.com/
 - https://plugins.jetbrains.com/
