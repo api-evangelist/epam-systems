@@ -1,0 +1,43 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://marketplace.atlassian.com/
+- https://plugins.jetbrains.com/
+marketplace_apps: []
+edges:
+- partner_name: Atlassian Marketplace
+  partner: atlassian
+  partner_match: aggregator
+  type: marketplace
+  marketplace: atlassian
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://marketplace.atlassian.com/vendors/1211227/epam-systems-inc
+  listing_count: 2
+  apps:
+  - QaSpace - Test Management
+  - AI Jeannie
+  publisher_name: EPAM Systems, Inc.
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+- partner_name: JetBrains Marketplace
+  partner: jetbrains
+  partner_match: aggregator
+  type: marketplace
+  marketplace: jetbrains
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://plugins.jetbrains.com/vendor/EPAM_Systems
+  listing_count: 1
+  apps:
+  - SAP Commerce Developers Toolset
+  publisher_name: EPAM Systems
+  badges:
+  - Verified vendor
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+source:
+- https://marketplace.atlassian.com/
+- https://plugins.jetbrains.com/
