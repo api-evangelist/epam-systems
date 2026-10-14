@@ -4,6 +4,7 @@ checked:
 - guidewire/integrations/guidewire-integration-edges.yml
 - https://marketplace.atlassian.com/
 - https://plugins.jetbrains.com/
+- olo/integrations/olo-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Atlassian Marketplace
@@ -59,6 +60,23 @@ edges:
   badges:
   - Ready for Guidewire
   - 'Partner tier: Growth'
+- partner_name: Olo (own)
+  partner: olo
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.olo.com/partners/epam
+  mirror_of: olo/integrations/olo-integration-edges.yml
+  apps:
+  - Epam
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Mobile Apps
 source:
 - https://marketplace.atlassian.com/
 - https://plugins.jetbrains.com/
